@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details-Add</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <section>
+        <!-- wholepage -->
+        <div class="fullpage">
+         <!-- heading -->
+        <h1>Contact Manger</h1>
+          <!-- Add Contact -->
+        <div class="contact">
+
+            <h2>Add Contact</h2>
+
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter name" required><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required><br>
+
+             <!-- <h6 id="validation">Name is required and Invalid Email</h6> -->
+
+            <button id="submit" onclick="Add()">Submit</button> 
+
+        </div>
+
+        <hr><hr>
+
+        <div class="details">
+
+            <div class="first">
+                 <div id="info">
+                <h4></h4>
+                <p></p>
+                 </div>
+
+                <div id="button">
+                    <button id="del" onclick="del()"></button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    </section>
+    <script src="details.js"></script>
+</body>
+</html>
